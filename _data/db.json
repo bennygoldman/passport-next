@@ -1,11 +1,12 @@
 {
-  "records": [
+  "branches": [
     {
-      "id": 1,
+      "id": "1",
       "image": "003-albion-hi.jpg",
       "BranchCode": "AB",
       "PhysicalBranch": 1,
       "BranchName": "Albion",
+      "hasKidStuff": true,
       "Address": "1515 Albion Road, Toronto, ON, M9V 1B2",
       "PostalCode": "M9V 1B2",
       "Website": "https://www.tpl.ca/albion",
@@ -18,11 +19,12 @@
       "PresentSiteYear": 2017
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "002-albert-campbell-hi.jpg",
       "BranchCode": "ACD",
       "PhysicalBranch": 1,
       "BranchName": "Albert Campbell",
+      "hasKidStuff": false,
       "Address": "496 Birchmount Road, Toronto, ON, M1K 1N8",
       "PostalCode": "M1K 1N8",
       "Website": "https://www.tpl.ca/albertcampbell",
@@ -35,11 +37,12 @@
       "PresentSiteYear": 1971
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "004-alderwood-hi.jpg",
       "BranchCode": "AD",
       "PhysicalBranch": 1,
       "BranchName": "Alderwood",
+      "hasKidStuff": true,
       "Address": "2 Orianna Drive, Toronto, ON, M8W 4Y1",
       "PostalCode": "M8W 4Y1",
       "Website": "https://www.tpl.ca/alderwood",
@@ -52,11 +55,12 @@
       "PresentSiteYear": 1999
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "001-agincourt-hi.jpg",
       "BranchCode": "AG",
       "PhysicalBranch": 1,
       "BranchName": "Agincourt",
+      "hasKidStuff": true,
       "Address": "155 Bonis Avenue, Toronto, ON, M1T 3W6",
       "PostalCode": "M1T 3W6",
       "Website": "https://www.tpl.ca/agincourt",
@@ -69,11 +73,12 @@
       "PresentSiteYear": 1991
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "007-armour-heights-hi.jpg",
       "BranchCode": "AH",
       "PhysicalBranch": 1,
       "BranchName": "Armour Heights",
+      "hasKidStuff": false,
       "Address": "2140 Avenue Road, Toronto, ON, M5M 4M7",
       "PostalCode": "M5M 4M7",
       "Website": "https://www.tpl.ca/armourheights",
@@ -86,11 +91,12 @@
       "PresentSiteYear": 1982
     },
     {
-      "id": 7,
+      "id": "7",
       "image": "006-annette-street-hi.jpg",
       "BranchCode": "AN",
       "PhysicalBranch": 1,
       "BranchName": "Annette Street",
+      "hasKidStuff": true,
       "Address": "145 Annette Street, Toronto, ON, M6P 1P3",
       "PostalCode": "M6P 1P3",
       "Website": "https://www.tpl.ca/annette",
@@ -103,11 +109,12 @@
       "PresentSiteYear": 1908
     },
     {
-      "id": 8,
+      "id": "8",
       "image": "005-amesbury-park-hi.jpg",
       "BranchCode": "AP",
       "PhysicalBranch": 1,
       "BranchName": "Amesbury Park",
+      "hasKidStuff": true,
       "Address": "1565 Lawrence Avenue West, Toronto, ON, M6L 1A8",
       "PostalCode": "M6L 1A8",
       "Website": "https://www.tpl.ca/amesburypark",
@@ -120,11 +127,12 @@
       "PresentSiteYear": 1967
     },
     {
-      "id": 9,
+      "id": "9",
       "image": "015-brookbanks-hi.jpg",
       "BranchCode": "BB",
       "PhysicalBranch": 1,
       "BranchName": "Brookbanks",
+      "hasKidStuff": true,
       "Address": "210 Brookbanks Drive, Toronto, ON, M3A 2T8",
       "PostalCode": "M3A 2T8",
       "Website": "https://www.tpl.ca/brookbanks",
@@ -142,6 +150,7 @@
       "BranchCode": "BC",
       "PhysicalBranch": 1,
       "BranchName": "Black Creek",
+      "hasKidStuff": true,
       "Address": "North York Sheridan Mall, 1700 Wilson Avenue, Toronto, ON, M3L 1B2",
       "PostalCode": "M3L 1B2",
       "Website": "https://www.tpl.ca/blackcreek",
@@ -154,11 +163,12 @@
       "PresentSiteYear": 2002
     },
     {
-      "id": 11,
+      "id": "11",
       "image": "010-bendale-hi.jpg",
       "BranchCode": "BD",
       "PhysicalBranch": 1,
       "BranchName": "Bendale",
+      "hasKidStuff": false,
       "Address": "1515 Danforth Road, Toronto, ON, M1J 1H5",
       "PostalCode": "M1J 1H5",
       "Website": "https://www.tpl.ca/bendale",
@@ -171,11 +181,12 @@
       "PresentSiteYear": 1961
     },
     {
-      "id": 12,
+      "id": "12",
       "image": "009-beaches-hi.jpg",
       "BranchCode": "BE",
       "PhysicalBranch": 1,
       "BranchName": "Beaches",
+      "hasKidStuff": true,
       "Address": "2161 Queen Street East, Toronto, ON, M4L 1J1",
       "PostalCode": "M4L 1J1",
       "Website": "https://www.tpl.ca/beaches",
@@ -188,11 +199,12 @@
       "PresentSiteYear": 1914
     },
     {
-      "id": 13,
+      "id": "13",
       "image": "008-barbara-frum-hi.jpg",
       "BranchCode": "BF",
       "PhysicalBranch": 1,
       "BranchName": "Barbara Frum",
+      "hasKidStuff": true,
       "Address": "20 Covington Road, Toronto, ON, M6A 3C1",
       "PostalCode": "M6A 3C1",
       "Website": "https://www.tpl.ca/barbarafrum",
@@ -205,11 +217,12 @@
       "PresentSiteYear": 1992
     },
     {
-      "id": 16,
+      "id": "16",
       "image": "012-bloor-gladstone-hi.jpg",
       "BranchCode": "BL",
       "PhysicalBranch": 1,
       "BranchName": "Bloor/Gladstone",
+      "hasKidStuff": false,
       "Address": "1101 Bloor Street West, Toronto, ON, M6H 1M7",
       "PostalCode": "M6H 1M7",
       "Website": "https://www.tpl.ca/bloorgladstone",
@@ -222,17 +235,18 @@
       "PresentSiteYear": 1913
     },
     {
-      "id": 17,
+      "id": "17",
       "image": "013-brentwood-hi.jpg",
       "BranchCode": "BR",
       "PhysicalBranch": 1,
       "BranchName": "Brentwood",
+      "hasKidStuff": true,
       "Address": "36 Brentwood Road North, Toronto, ON, M8X 2B5",
       "PostalCode": "M8X 2B5",
       "Website": "https://www.tpl.ca/brentwood",
       "Telephone": "416-394-5240",
       "NBHDNo": 15,
-      "NBHDName": "Kingsway South ",
+      "NBHDName": "Kingsway South",
       "TPLNIA": 0,
       "WardNo": 3,
       "WardName": "Etobicoke-Lakeshore",
@@ -244,6 +258,7 @@
       "BranchCode": "BRW",
       "PhysicalBranch": 1,
       "BranchName": "Bridlewood",
+      "hasKidStuff": true,
       "Address": "Bridlewood Mall, 157A-2900 Warden Avenue, Toronto, ON, M1W 2S8",
       "PostalCode": "M1W 2S8",
       "Website": "https://www.tpl.ca/bridlewood",
@@ -256,11 +271,12 @@
       "PresentSiteYear": 1992
     },
     {
-      "id": 19,
+      "id": "19",
       "image": "016-burrows-hall-hi.jpg",
       "BranchCode": "BUR",
       "PhysicalBranch": 1,
       "BranchName": "Burrows Hall",
+      "hasKidStuff": true,
       "Address": "1081 Progress Avenue, Toronto, ON, M1B 5Z6",
       "PostalCode": "M1B 5Z6",
       "Website": "https://www.tpl.ca/burrowshall",
@@ -273,11 +289,12 @@
       "PresentSiteYear": 1998
     },
     {
-      "id": 20,
+      "id": "20",
       "image": "020-cliffcrest-hi.jpg",
       "BranchCode": "CC",
       "PhysicalBranch": 1,
       "BranchName": "Cliffcrest",
+      "hasKidStuff": false,
       "Address": "3017 Kingston Road, Toronto, ON, M1M 1P1",
       "PostalCode": "M1M 1P1",
       "Website": "https://www.tpl.ca/cliffcrest",
