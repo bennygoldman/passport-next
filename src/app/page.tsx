@@ -5,7 +5,10 @@ import {
   CardTitle,
   CardDescription,
   CardContent,
-} from '../components/ui/card';
+} from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 interface Branch {
   image: string;
@@ -37,7 +40,13 @@ export default async function Home() {
         {branches.map((branch) => (
           <Card key={branch.id} className='flex flex-col justify-between'>
             <CardHeader className='flex-row gap-4 items-center'>
-              {/* image to go here */}
+              <Avatar>
+                <AvatarImage
+                  src={`/img/${branch.image}`}
+                  alt={branch.BranchName}
+                />
+                <AvatarFallback>{branch.BranchCode.slice(0, 2)}</AvatarFallback>
+              </Avatar>
               <div>
                 <CardTitle>{branch.BranchName}</CardTitle>
                 <CardDescription>{branch.NBHDName}</CardDescription>
@@ -61,9 +70,10 @@ export default async function Home() {
               <p>{branch.PostalCode}</p>
             </CardContent>
             <CardFooter className='flex justify-between'>
-              <button>View Branch</button>
+              <Button>View Branch</Button>
               {branch.hasKidStuff && (
-                <p className=' bg-green-400 bg-opacity-70'>Has Kid Stuff!</p>
+                // <p className=' bg-green-400 bg-opacity-70'>Has Kid Stuff!</p>
+                <Badge variant='secondary'>Has Kid Stuff!</Badge>
               )}
             </CardFooter>
           </Card>
