@@ -28,6 +28,10 @@ interface Branch {
 async function getBranches(): Promise<Branch[]> {
   const result = await fetch('http://localhost:4000/branches');
 
+  // add delay to test skeleton
+
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+
   return result.json();
 }
 
