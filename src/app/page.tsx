@@ -11,8 +11,10 @@ interface Branch {
   image: string;
   BranchCode: string;
   BranchName: string;
+  visitCount: number;
   hasKidStuff: boolean;
   Address: string;
+  PostalCode: string;
   NBHDName: string;
   NBHDNo: number;
   WardNo: number;
@@ -42,7 +44,21 @@ export default async function Home() {
               </div>
             </CardHeader>
             <CardContent>
+              {!branch.visitCount && (
+                <p className='bg-blue-400 bg-opacity-20'>
+                  You haven't been here yet!
+                </p>
+              )}
+              {branch.visitCount === 1 && (
+                <p className=' bg-blue-400 bg-opacity-60'>You've been here!</p>
+              )}
+              {branch.visitCount > 1 && (
+                <p className=' bg-blue-500 bg-opacity-80'>
+                  You've been here {branch.visitCount} times!
+                </p>
+              )}
               <p>{branch.Address}</p>
+              <p>{branch.PostalCode}</p>
             </CardContent>
             <CardFooter className='flex justify-between'>
               <button>View Branch</button>
