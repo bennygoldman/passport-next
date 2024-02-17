@@ -1,6 +1,6 @@
 # Toronto Library Passport
 
-Testing Passport concept using shadcn-ui
+Quick prototyping with TypeScript and shadcn-ui
 
 ## to run
 

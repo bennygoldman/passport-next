@@ -10,6 +10,7 @@ export default function SkeletonCard() {
       <CardContent>
         <Skeleton className='h-4 flex-grow mt-4' />
         <Skeleton className='h-4 flex-grow mt-4' />
+        <Skeleton className='h-4 flex-grow mt-4' />
         <Skeleton className='h-4 w-1/2 mt-4' />
       </CardContent>
       <CardFooter>

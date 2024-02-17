@@ -17,8 +17,10 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <nav>
-          <h1>Benny&#39;s Library Passport</h1>
+        <nav className=''>
+          <h1 className='text-primary text-center'>
+            📖 Toronto Library Passport 📖
+          </h1>
         </nav>
 
         {children}
