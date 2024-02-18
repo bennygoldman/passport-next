@@ -14,12 +14,12 @@ import TextareaWithLabel from '@/components/TextareaWithLabel';
 import VisitBadge from '@/components/VisitBadge';
 
 interface BranchCardProps {
-  image: string;
-  BranchCode: string;
-  BranchName: string;
-  visitCount: number;
-  hasKidStuff: boolean;
-  Address: string;
+  image?: string;
+  BranchCode?: string;
+  BranchName?: string;
+  visitCount?: number;
+  hasKidStuff?: boolean;
+  Address?: string;
 }
 
 export default function BranchCard({
@@ -38,7 +38,9 @@ export default function BranchCard({
           src={`/img/${branch.image}`}
           alt={branch.BranchName}
         /> */}
-          <AvatarFallback>{BranchCode.slice(0, 2)}</AvatarFallback>
+          {BranchCode && (
+            <AvatarFallback>{BranchCode.slice(0, 2)}</AvatarFallback>
+          )}
         </Avatar>
         <div>
           <CardTitle>{BranchName}</CardTitle>
@@ -47,7 +49,7 @@ export default function BranchCard({
       </CardHeader>
       <CardContent className=''>
         <CardImage src={`/img/${image}`} alt={BranchName} />
-        <VisitBadge className='py-4' visitCount={visitCount} />
+        {visitCount && <VisitBadge className='py-4' visitCount={visitCount} />}
         <TextareaWithLabel
           className=''
           label='My notes:'
