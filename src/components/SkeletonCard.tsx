@@ -1,5 +1,6 @@
 import { Skeleton } from './ui/skeleton';
 import { Card, CardContent, CardHeader, CardFooter } from './ui/card';
+
 export default function SkeletonCard() {
   return (
     <Card className='flex flex-col justify-between'>

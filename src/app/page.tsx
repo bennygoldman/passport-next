@@ -1,4 +1,4 @@
-import { getData } from '@/lib/fetchOpenData';
+import { fetchOpenData } from '@/lib/fetchOpenData';
 import { packageId } from '@/lib/utils';
 import {
   Carousel,
@@ -12,7 +12,7 @@ import BranchCard from '@/components/BranchCard';
 import PassportCover from '@/components/PassportCover';
 
 export default async function Home() {
-  const branches = await getData(packageId);
+  const branches = await fetchOpenData(packageId);
 
   return (
     <main>
@@ -32,23 +32,9 @@ export default async function Home() {
 
 // interface Branch {
 //   image: string;
-//   BranchCode: string;
-//   BranchName: string;
 //   visitCount: number;
 //   hasKidStuff: boolean;
-//   Address: string;
-//   PostalCode: string;
-//   NBHDName: string;
-//   NBHDNo: number;
-//   WardNo: number;
-//   WardName: string;
-//   id: string;
 // }
-
-// export default async function Home() {
-//   const branches = await getBranches();
-//   // console.log(branches);
-
 //         <Carousel opts={{ loop: true }}>
 //           <CarouselContent>
 //             {branches.map((branch) => (

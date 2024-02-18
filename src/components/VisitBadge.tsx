@@ -33,13 +33,3 @@ export default function VisitBadge({ className, visitCount }: VisitBadgeProps) {
     </div>
   );
 }
-
-//     if (!visitCount) {
-//     return <NoVisitBadge />;
-//   }
-
-//   if (visitCount === 1) {
-//     return <OneVisitBadge />;
-//   }
-
-//   return <ManyVisitBadge visitCount={visitCount} />;
